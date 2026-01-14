@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure:focus {
+    outline: 3px solid blue; /* visible focus for keyboard users */
+}
